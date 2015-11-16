@@ -8,6 +8,5 @@ applications:
   domain: ${cf_domain}
   buildpack: ${cf_buildpack_node}
   stack: ${cf_stack}
-
 env:
-	REGION: ${cf_region}
+  REGION: ${cf_region}
