@@ -1,6 +1,6 @@
 applications:
 - disk_quota: 512M
-  host: ${cf_appname}_${version.name}
+  host: ${cf_appname}_
   name: ${cf_appname}_${version.name}_READY
   instances: 1
   memory: 1GB
