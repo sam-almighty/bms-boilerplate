@@ -1,5 +1,5 @@
 {
-  "name": "MobileFirst Services Starter${cf_deploy_subzone}",
+  "name": "MobileFirst Services Starter${cf.deploy.subzone}",
   "services": [],
   "defaultMemory": 512,
   "startCommand": "node app.js",
@@ -18,7 +18,7 @@
   
   "source": {
     "scmType": "git",
-    "url": "https://github.com/ibm-bluemix-mobile-services/bms-hellotodo-strongloop.git",
+    "url": "${git.src.url}",
     "appPath": "."
   },
   "docURL": "#starters/mobilefirst/index.html",

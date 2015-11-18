@@ -1,12 +1,12 @@
 applications:
 - disk_quota: 512M
-  host: ${cf_appname}_
-  name: ${cf_appname}_${version.name}_READY
+  host: ${cf.appname}_
+  name: ${cf.appname}_${version.name}_READY
   instances: 1
   memory: 1GB
   timeout: 180
-  domain: ${cf_domain}
-  buildpack: ${cf_buildpack_node}
-  stack: ${cf_stack}
+  domain: ${cf.domain}
+  buildpack: ${cf.buildpack.node}
+  stack: ${cf.stack}
 env:
-  REGION: ${cf_region}
+  REGION: ${cf.region}
