@@ -1,7 +1,7 @@
 applications:
 - disk_quota: 512M
-  host: ${app.name}
-  name: ${app.name}
+  host: ${cf.app.name}
+  name: ${cf.app.name}
   instances: 1
   memory: 1GB
   timeout: 180
