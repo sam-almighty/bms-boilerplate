@@ -1,7 +1,7 @@
 applications:
 - disk_quota: 512M
-  host: bms-boilerplate
-  name: bms-boilerplate
+  host: ${app.name}
+  name: ${app.name}
   instances: 1
   memory: 1GB
   timeout: 180
