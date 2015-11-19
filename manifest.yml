@@ -1,7 +1,7 @@
 applications:
 - disk_quota: 512M
-  host: ${cf_appname}
-  name: ${cf_appname}
+  host: imftemplatecatalog
+  name: imftemplatecatalog
   instances: 1
   memory: 1GB
   timeout: 180
