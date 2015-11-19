@@ -1,7 +1,7 @@
 applications:
 - disk_quota: 512M
-  host: ${cf.appname}_
-  name: ${cf.appname}_${version.name}_READY
+  host: bms-boilerplate_${version.name}_BLUE
+  name: bms-boilerplate_${version.name}_BLUE
   instances: 1
   memory: 1GB
   timeout: 180
