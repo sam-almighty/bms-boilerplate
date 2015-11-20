@@ -1,10 +1,10 @@
 applications:
-- disk_quota: 512M
-  host: imftemplatecatalog
-  name: imftemplatecatalog
-  instances: 1
-  memory: 1GB
-  timeout: 180
+- disk_quota: ${cf_disk_quota}
+  name: ${cf_appname}
+  host: ${cf_hostname}
+  instance4s: ${cf_instances}
+  memory: ${cf_memory}
+  timeout: ${cf_timeout}
   domain: ${cf_domain}
   buildpack: ${cf_buildpack_node}
   stack: ${cf_stack}
