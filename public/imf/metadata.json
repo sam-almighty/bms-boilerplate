@@ -2,7 +2,6 @@
   "name": "MobileFirst Services Starter${cf_deploy_subzone}",
   "services": [],
   "defaultMemory": 512,
-  "startCommand": "node app.js",
   "description": "Start building your next mobile app with mobile services on Bluemix.",
   "type": "web",
   "version": "${version.name}",
