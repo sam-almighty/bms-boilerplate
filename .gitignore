@@ -13,6 +13,5 @@
 node_modules
 coverage
 *.tgz
-*.xml
 bms-hellotodo-strongloop
 target

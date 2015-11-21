@@ -1,3 +1,2 @@
-# CF edge release by default ignore .git repositories
 !.cfignore
 !.git
