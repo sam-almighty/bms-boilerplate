@@ -21,7 +21,7 @@
   
   "source": {
     "scmType": "git",
-    "url": ".",
+    "url": ".git",
     "appPath": "bms-hellotodo-strongloop"
   },
   "docURL": "#starters/mobilefirst/index.html",
