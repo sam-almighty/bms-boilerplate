@@ -18,6 +18,7 @@ rm -rf .git
 # Clone a repo
 git clone ${app_git_url}
 cd ${app_name}
+git checkout development
 rm -rf .git
 cd .. #back to /boilerplate/imf
 
