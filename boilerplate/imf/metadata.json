@@ -1,6 +1,10 @@
 {
     "name": "MobileFirst Services Starter${cf_deploy_subzone}",
     "services": [
+		{
+            "name": "AdvancedMobileAccess${cf_deploy_subzone}",
+            "plan": "Bronze"
+        }
     ],
     "defaultMemory": 512,
     "description": "Start building your next mobile app with mobile services on Bluemix.",
