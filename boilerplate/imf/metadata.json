@@ -1,6 +1,10 @@
 {
     "name": "MobileFirst Services Starter${cf_deploy_subzone}",
     "services": [
+		{
+            "name": "AdvancedMobileAccess${cf_deploy_subzone}",
+            "plan": "Bronze"
+        },
         {
             "name": "imfpush${cf_deploy_subzone}",
             "plan": "Beta"
