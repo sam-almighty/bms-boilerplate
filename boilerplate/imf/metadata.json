@@ -1,9 +1,13 @@
 {
     "name": "MobileFirst Services Starter${cf_deploy_subzone}",
     "services": [
+        {
+            "name": "imfpush${cf_deploy_subzone}",
+            "plan": "Beta"
+        },
 		{
-            "name": "AdvancedMobileAccess${cf_deploy_subzone}",
-            "plan": "Bronze"
+            "name": "cloudantNoSQLDB",
+            "plan": "Shared"
         }
     ],
     "defaultMemory": 512,
