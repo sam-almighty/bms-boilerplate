@@ -1,18 +1,6 @@
 {
     "name": "MobileFirst Services Starter${cf_deploy_subzone}",
     "services": [
-		{
-            "name": "AdvancedMobileAccess${cf_deploy_subzone}",
-            "plan": "Bronze"
-        },
-        {
-            "name": "imfpush${cf_deploy_subzone}",
-            "plan": "Beta"
-        },
-		{
-            "name": "cloudantNoSQLDB",
-            "plan": "Shared"
-        }
     ],
     "defaultMemory": 512,
     "description": "Start building your next mobile app with mobile services on Bluemix.",
