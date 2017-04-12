@@ -3,7 +3,7 @@
     "services": [
 		{
             "name": "AdvancedMobileAccess${cf_deploy_subzone}",
-            "plan": "Bronze"
+            "plan": "Graduated tier"
         },
         {
             "name": "imfpush${cf_deploy_subzone}",
