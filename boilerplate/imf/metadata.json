@@ -11,7 +11,7 @@
         },
 		{
             "name": "cloudantNoSQLDB",
-            "plan": "Shared"
+            "plan": "Lite"
         }
     ],
     "defaultMemory": 512,
