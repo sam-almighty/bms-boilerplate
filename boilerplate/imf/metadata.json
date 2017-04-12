@@ -7,7 +7,7 @@
         },
         {
             "name": "imfpush${cf_deploy_subzone}",
-            "plan": "Beta"
+            "plan": "Lite"
         },
 		{
             "name": "cloudantNoSQLDB",
