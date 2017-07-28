@@ -1,7 +1,7 @@
 {
     "name": "MobileFirst Services Starter${cf_deploy_subzone}",
     "services": [
-		{
+	{
             "name": "AppID${cf_deploy_subzone}",
             "plan": "Graduated tier"
         },
@@ -9,7 +9,11 @@
             "name": "imfpush${cf_deploy_subzone}",
             "plan": "Lite"
         },
-		{
+	{
+	    "name": "mobile-analytics${cf_deploy_analytics_zone}",
+	    "plan": "basic"
+	},
+	{
             "name": "cloudantNoSQLDB",
             "plan": "Lite"
         }
