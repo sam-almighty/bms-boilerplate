@@ -1,13 +1,13 @@
 applications:
-- disk_quota: ${cf_disk_quota}
-  name: ${cf_appname}
-  host: ${cf_hostname}
-  instances: ${cf_instances}
-  memory: ${cf_memory}
-  timeout: ${cf_timeout}
-  domain: ${cf_domain}
-  buildpack: ${cf_buildpack_java}
-  stack: ${cf_stack}
+- disk_quota: 500
+  name: kuchbhi
+  host: kuchbhi
+  instances: 2
+  memory: 1024
+  timeout: 300
+  domain: mybluemix.net
+  buildpack: sdk-for-nodejs
+  stack: cflinuxfs2
   path: boilerplate.war
 env:
-  REGION: ${cf_region}
+  REGION: us-south
