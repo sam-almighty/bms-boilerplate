@@ -1,16 +1,16 @@
 {
-    "name": "MobileFirst Services Starter${cf_deploy_subzone}",
+    "name": "MobileFirst Services Starterdev",
     "services": [
 	{
-            "name": "AppID${cf_deploy_subzone}",
+            "name": "AppIDdev",
             "plan": "Graduated tier"
         },
         {
-            "name": "imfpush${cf_deploy_subzone}",
+            "name": "imfpushdev",
             "plan": "Lite"
         },
 	{
-	    "name": "mobile-analytics${cf_deploy_analytics_zone}",
+	    "name": "mobile-analyticsdev",
 	    "plan": "basic"
 	},
 	{
@@ -21,7 +21,7 @@
     "defaultMemory": 512,
     "description": "Start building your next mobile app with mobile services on Bluemix.",
     "type": "web",
-    "version": "${version.name}",
+    "version": "1.0.56",
     "smallIcon": "imf_small.png",
     "icon": "imf_medium.png",
     "largeIcon": "imf_large.png",
