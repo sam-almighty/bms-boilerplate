@@ -9,5 +9,6 @@ applications:
   buildpack: liberty-for-java
   stack: cflinuxfs2
   path: boilerplate.war
+  GIT_SLUG: bluemix-mobile-services:bms-boilerplate:master
 env:
   REGION: us-south
