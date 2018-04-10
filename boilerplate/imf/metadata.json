@@ -1,27 +1,27 @@
 {
-    "name": "MobileFirst Services Starterdev",
+    "name": "MobileFirst Services Starter_Dev",
     "services": [
-	{
-            "name": "AppIDdev",
+  {
+            "name": "AppID_Dev",
             "plan": "Graduated tier"
         },
         {
-            "name": "imfpushdev",
+            "name": "imfpush_Dev",
             "plan": "Lite"
         },
-	{
-	    "name": "mobile-analyticsdev",
-	    "plan": "basic"
-	},
-	{
+  {
+      "name": "mobile-analytics_Dev",
+      "plan": "basic"
+  },
+  {
             "name": "cloudantNoSQLDB",
             "plan": "Lite"
         }
     ],
     "defaultMemory": 512,
-    "description": "Start building your next mobile app with mobile services on Bluemix.",
+    "description": "Start building your next mobile app with mobile services on IBM Cloud.",
     "type": "web",
-    "version": "1.0.56",
+    "version": "1.0.53",
     "smallIcon": "imf_small.png",
     "icon": "imf_medium.png",
     "largeIcon": "imf_large.png",
@@ -47,39 +47,39 @@
         "i18n": {
             "de": {
                 "name": "MobileFirst Services Starter",
-                "description": "Erstellen Sie Ihre nächste mobile App mit den mobilen Services für Bluemix."
+                "description": "Erstellen Sie Ihre nächste mobile App mit den mobilen Services für IBM Cloud."
             },
             "es": {
                 "name": "MobileFirst Services Starter",
-                "description": "Comience a crear su nueva app móvil con los servicios móviles de Bluemix."
+                "description": "Comience a crear su nueva app móvil con los servicios móviles de IBM Cloud."
             },
             "fr": {
                 "name": "MobileFirst Services Starter",
-                "description": "Générez votre prochaine application mobile à l'aide des services mobiles dans Bluemix."
+                "description": "Générez votre prochaine application mobile à l'aide des services mobiles dans IBM Cloud."
             },
             "it": {
                 "name": "MobileFirst Services Starter",
-                "description": "Iniziare a creare la prossima applicazione mobile con i servizi mobili su Bluemix."
+                "description": "Iniziare a creare la prossima applicazione mobile con i servizi mobili su IBM Cloud."
             },
             "ja": {
                 "name": "MobileFirst Services Starter",
-                "description": "Bluemix のモバイル・サービスで、次のモバイル・アプリケーションの構築を始めてください。"
+                "description": "IBM Cloud のモバイル・サービスで、次のモバイル・アプリケーションの構築を始めてください。"
             },
             "ko": {
                 "name": "MobileFirst Services Starter",
-                "description": "Bluemix에서 모바일 서비스를 사용하여 다음 모바일 앱의 빌드를 시작하십시오."
+                "description": "IBM Cloud에서 모바일 서비스를 사용하여 다음 모바일 앱의 빌드를 시작하십시오."
             },
             "pt-BR": {
                 "name": "MobileFirst Services Starter",
-                "description": "Inicie a construção de seu próximo aplicativo móvel com serviços móveis no Bluemix."
+                "description": "Inicie a construção de seu próximo aplicativo móvel com serviços móveis no IBM Cloud."
             },
             "zh-Hans": {
                 "name": "MobileFirst Services Starter",
-                "description": "开始在 Bluemix 上使用移动服务构建下一个移动应用程序"
+                "description": "开始在 IBM Cloud 上使用移动服务构建下一个移动应用程序"
             },
             "zh-Hant": {
                 "name": "MobileFirst Services Starter",
-                "description": "在 Bluemix 上使用行動式服務開始建置您的下一個行動式應用程式。"
+                "description": "在 IBM Cloud 上使用行動式服務開始建置您的下一個行動式應用程式。"
             }
         }
     }
