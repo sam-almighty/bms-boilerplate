@@ -1,12 +1,12 @@
 applications:
-- disk_quota: 500
-  name: kuchbhi
-  host: kuchbhi
-  instances: 2
-  memory: 1024
-  timeout: 300
-  domain: mybluemix.net
-  buildpack: sdk-for-nodejs
+- disk_quota: 512M
+  name: bms-boilerplate
+  host: imftemplatecatalog
+  instances: 3
+  memory: 1GB
+  timeout: 180
+  domain: stage1-dev.ng.bluemix.net
+  buildpack: liberty-for-java
   stack: cflinuxfs2
   path: boilerplate.war
 env:
