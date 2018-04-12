@@ -12,3 +12,4 @@ applications:
   env:
     REGION: us-south
     GIT_SLUG: bluemix-mobile-services:bms-boilerplate:master
+    cf_space: aescoreDev
