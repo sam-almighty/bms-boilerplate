@@ -1,7 +1,7 @@
 applications:
 - disk_quota: 512M
   name: bms-boilerplate
-  host: imftemplatecatalog-test
+  host: imftemplatecatalog
   instances: 3
   memory: 1GB
   timeout: 180
