@@ -40,5 +40,5 @@ cd ..
 
 # Copy manifest.yml to /target
 cp manifest.yml target
-mv environments target
+mv -v environments/* target/environments
 
