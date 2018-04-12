@@ -1,0 +1,16 @@
+{
+  "cf_appname": "bms-boilerplate",
+  "cf_buildpack_java": "liberty-for-java",
+  "cf_deploy_analytics_zone": "_Prod",
+  "cf_deploy_subzone": "",
+  "cf_disk_quota": "512M",
+  "cf_domain": "stage1.ng.bluemix.net",
+  "cf_hostname": "imftemplatecatalog",
+  "cf_instances": "3",
+  "cf_memory": "1GB",
+  "cf_region": "us-south",
+  "cf_space": "aescore",
+  "cf_stack": "cflinuxfs2",
+  "cf_subzone": "",
+  "cf_timeout": "180"
+}
