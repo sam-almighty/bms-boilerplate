@@ -1,16 +1,16 @@
 {
-    "name": "MobileFirst Services Starter_Dev",
+    "name": "MobileFirst Services Starter",
     "services": [
   {
-            "name": "AppID_Dev",
+            "name": "AppID",
             "plan": "Graduated tier"
         },
         {
-            "name": "imfpush_Dev",
+            "name": "imfpush",
             "plan": "Lite"
         },
   {
-      "name": "mobile-analytics_Dev",
+      "name": "mobile-analytics_Prod",
       "plan": "basic"
   },
   {
